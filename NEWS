@@ -1,0 +1,23 @@
+1.1.0
+	* Updated #include directives to build more cleanly under cygwin
+	* Added ebuild file for gentoo, and will be submitting it to portage
+
+1.0.0
+	Integrated changes by Marcin 'Shard' Konicki for beos support
+	Homepage: http://shard.beosjournal.org
+	They include:
+	* Added reset key ('r')
+	* Added BeOS code so wakkabox saves files to it's "own" directory
+
+	* Changed version number to 1.0.0 to honor the portability to 3 OS's!
+
+0.0.3
+	* Added winning conditions check
+	* Added ability to pass a data file on the command line
+	* Added move counter
+
+0.0.2
+	* made wakkabox robust with respect to finding its graphics files
+
+0.0.1 18-2-2002
+	* wakkabox is officially cross-platform, autconf, automake goodness.

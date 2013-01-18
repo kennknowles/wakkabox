@@ -1,0 +1,42 @@
+if you read this before INSTALL, heres a quick installation:
+	./configure
+	make
+	su -c "make install"
+
+HOW TO PLAY
+	drag the blocks around, get the big red one opposite where it starts.
+	I havent implemented winning conditions at this time, but I will soon
+	enough.
+
+	(basically the big block is R and everything else can be x)
+
+	xxxxx
+	RRxxx
+	RRxxx
+	xxxxx
+	
+	winning position:
+
+	xxxxx
+	xxxRR
+	xxxRR
+	xxxxx
+	
+FILE LOCATIONS
+	The defaults for automake are _VERY_ poorly documented, so I'll mention
+	them here.
+
+	by default the following files are installed when you "make install"
+
+	/usr/local/bin/wakkabox - the game, enjoy.
+
+	/usr/local/etc/wakkabox/startconfig - the starting setup
+
+	/usr/local/share/wakkabox/*.bmp - 4 bitmaps for the images.  perhaps
+										the startup should be in this dir too,
+										but oh well.
+
+WINDOWS
+1.  You need cygwin
+2.	In order to have nice graphics, instead of clunky blocks, you will
+	need to run wakkabox from a directory with the graphics files in it.
